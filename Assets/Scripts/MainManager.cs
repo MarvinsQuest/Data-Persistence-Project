@@ -85,8 +85,4 @@ public class MainManager : MonoBehaviour
     {
         BestScoreText.text = "Best Score - " + PersistenceManager.Instance.bestPlayer + " : " + PersistenceManager.Instance.bestScore;
     }
-
-    
-
-    
 }

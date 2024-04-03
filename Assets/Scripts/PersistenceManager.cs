@@ -8,8 +8,8 @@ public class PersistenceManager : MonoBehaviour
     public static PersistenceManager Instance;
 
     public string playerName;
-    public string bestPlayer = "test";
-    public int bestScore = 2;
+    public string bestPlayer;
+    public int bestScore;
 
     private void Awake()
     {
